@@ -22,7 +22,7 @@ public class GrowUp extends Sprite {
 
     public void draw(){
         if(young == true){
-            getPApplet().tint(230, 230, 250);
+            getPApplet().fill(230, 230, 250);
             super.draw();
             getPApplet().textSize(18);
             getPApplet().textAlign(getPApplet().CENTER, getPApplet().CENTER);

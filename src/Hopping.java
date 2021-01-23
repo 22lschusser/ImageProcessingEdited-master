@@ -17,7 +17,7 @@
 
     public void draw(){
         PImage img = getImage();
-        getPApplet().tint(0, 100, 150, 150);
+        getPApplet().fill(255,255,255);
         super.draw();
         getPApplet().textSize(18);
         getPApplet().textAlign(getPApplet().CENTER, getPApplet().CENTER);
